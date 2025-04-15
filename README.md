@@ -98,8 +98,11 @@ useEffect(() => {
 ### 25. What’s the difference between let, const, and var?
 **Answer:**:
 var: function-scoped, hoisted
+
 let: block-scoped, can be reassigned
+
 const: block-scoped, cannot be reassigned
+
 
 ### 26. How do you optimize React performance?
 **Answer:**: Use React.memo, useMemo, lazy loading (React.lazy), and avoid unnecessary re-renders.
