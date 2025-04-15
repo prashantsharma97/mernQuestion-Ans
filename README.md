@@ -57,7 +57,6 @@ app.get('/users', (req, res) => {
 
 ### 16. How do you connect MongoDB to Node.js?  
 **Answer:** Use Mongoose to connect:  
-```js
 mongoose.connect('mongodb://localhost:27017/dbname');
 
 ### 17. What’s a schema in MongoDB?  
@@ -77,7 +76,6 @@ JWT (JSON Web Token) is used for authentication. After login, a token is created
 ### 20. How do you handle errors in Express.js?
 **Answer:**  
 Use error-handling middleware like this:
-```js
 app.use((err, req, res, next) => {
   res.status(500).json({ error: err.message });
 });
