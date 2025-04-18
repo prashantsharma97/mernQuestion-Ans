@@ -147,6 +147,16 @@ This repository contains a collection of commonly asked JavaScript, React, and R
 4. **What is an array? Example methods?**
    - **Answer:** An array in JavaScript is an ordered list of elements — used to store multiple values in a single variable.
    - **Methods:** `push()`, `pop()`, `map()`, `filter()`, `reduce()`.
+   ## 🍇 Common Array Methods (with Examples)
+
+| Method    | Description                           | Example                                  | Output                            |
+|-----------|---------------------------------------|------------------------------------------|-----------------------------------|
+| `push()`  | Add item to end                       | `fruits.push('orange')`                  | `['apple', 'banana', 'mango', 'orange']` |
+| `pop()`   | Remove item from end                  | `fruits.pop()`                           | `['apple', 'banana']`            |
+| `map()`   | Transform each item                   | `fruits.map(f => f.toUpperCase())`       | `['APPLE', 'BANANA', 'MANGO']`   |
+| `filter()`| Keep items matching a condition       | `fruits.filter(f => f !== 'banana')`     | `['apple', 'mango']`             |
+| `reduce()`| Combine values into single result     | `[1, 2, 3].reduce((a, b) => a + b, 0)`    | `6`                              |
+
 
 5. **What is an object? Important methods?**
    - **Answer:** A collection of key-value pairs. Methods: `Object.keys()`, `Object.values()`, `hasOwnProperty()`.
