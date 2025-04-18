@@ -172,7 +172,8 @@ This repository contains a collection of commonly asked JavaScript, React, and R
 
 
 6. **What is Temporal Dead Zone (TDZ)?**
-   - **Answer:** The time between entering scope and variable declaration where `let`/`const` are not accessible.
+   - **Answer:** Temporal Dead Zone (TDZ) is the time between when a let or const variable is declared and when it is initialized,
+     during which accessing the variable will throw a ReferenceError.,Variables declared with let or const are hoisted, but not initialized — and that's what creates the "dead zone".
 
 7. **What is hoisting?**
    - **Answer:** Variable and function declarations are moved to the top during compile phase.
