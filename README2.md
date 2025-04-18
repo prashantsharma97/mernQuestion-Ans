@@ -160,6 +160,16 @@ This repository contains a collection of commonly asked JavaScript, React, and R
 
 5. **What is an object? Important methods?**
    - **Answer:** A collection of key-value pairs. Methods: `Object.keys()`, `Object.values()`, `hasOwnProperty()`.
+   - ## 🧱 Common Object Methods (with Examples)
+
+| Method              | Description                              | Example                          | Output                                  |
+|---------------------|------------------------------------------|----------------------------------|-----------------------------------------|
+| `Object.keys()`     | Returns all keys as an array             | `Object.keys(user)`              | `['name', 'age', 'isDeveloper']`        |
+| `Object.values()`   | Returns all values as an array           | `Object.values(user)`            | `['Prashant', 25, true]`                |
+| `Object.entries()`  | Returns array of key-value pairs         | `Object.entries(user)`           | `[['name', 'Prashant'], ['age', 25], ['isDeveloper', true]]` |
+| `Object.assign()`   | Copies values from one object to another | `Object.assign({}, user)`        | `{ name: 'Prashant', age: 25, isDeveloper: true }` |
+| `hasOwnProperty()`  | Checks if a property exists              | `user.hasOwnProperty('age')`     | `true`                                  |
+
 
 6. **What is Temporal Dead Zone (TDZ)?**
    - **Answer:** The time between entering scope and variable declaration where `let`/`const` are not accessible.
