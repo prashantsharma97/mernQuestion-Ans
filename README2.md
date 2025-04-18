@@ -145,7 +145,8 @@ This repository contains a collection of commonly asked JavaScript, React, and R
      - **Non-Primitive:** `Object`, `Array`, `Function`
 
 4. **What is an array? Example methods?**
-   - **Answer:** An ordered list. Methods: `push()`, `pop()`, `map()`, `filter()`, `reduce()`.
+   - **Answer:** An array in JavaScript is an ordered list of elements — used to store multiple values in a single variable.
+   - **Methods:** `push()`, `pop()`, `map()`, `filter()`, `reduce()`.
 
 5. **What is an object? Important methods?**
    - **Answer:** A collection of key-value pairs. Methods: `Object.keys()`, `Object.values()`, `hasOwnProperty()`.
