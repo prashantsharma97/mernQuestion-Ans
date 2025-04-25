@@ -221,20 +221,26 @@ This repository contains a collection of commonly asked JavaScript, React, and R
     - **Answer:** Scope defines variable access; the scope chain is the hierarchy from local to global.
 
 19. **What is closure in JavaScript?**
-    - **Answer:** A function remembering the variables of its outer scope.
-   -**Example:**
-      function outer(){
-       let count = 0;
-       return function inner(){
-           count++;
-           console.log(count);
-       }
-   }
-   const counter = outer();
-   counter();
-   counter();
-   counter();
-   counter();
+
+    -  **Answer:**
+      A closure is a function that remembers the variables from its outer lexical scope even after the outer function has finished executing.
+
+**Example:**
+```javascript
+function outer() {
+    let count = 0;
+    return function inner() {
+        count++;
+        console.log(count);
+    }
+}
+
+const counter = outer();
+counter(); // 1
+counter(); // 2
+counter(); // 3
+counter(); // 4
+
 
 20. **What are object prototypes?**
     - **Answer:** Objects inherit from `Object.prototype` or custom prototypes.
