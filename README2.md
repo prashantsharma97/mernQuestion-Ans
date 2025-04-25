@@ -226,7 +226,6 @@ This repository contains a collection of commonly asked JavaScript, React, and R
       A closure is a function that remembers the variables from its outer lexical scope even after the outer function has finished executing.
 
 **Example:**
-```javascript
 function outer() {
     let count = 0;
     return function inner() {
