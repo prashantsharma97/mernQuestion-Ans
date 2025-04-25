@@ -222,19 +222,19 @@ This repository contains a collection of commonly asked JavaScript, React, and R
 
 19. **What is closure in JavaScript?**
     - **Answer:** A function remembering the variables of its outer scope.
-   -**Example:** function outer(){
-                   let count = 0;
-                   return function inner(){
-                       count++;
-                       console.log(count);
-                   }
-               }
-               
-               const counter = outer();
-               counter();
-               counter();
-               counter();
-               counter();
+   -**Example:**
+      function outer(){
+       let count = 0;
+       return function inner(){
+           count++;
+           console.log(count);
+       }
+   }
+   const counter = outer();
+   counter();
+   counter();
+   counter();
+   counter();
 
 20. **What are object prototypes?**
     - **Answer:** Objects inherit from `Object.prototype` or custom prototypes.
